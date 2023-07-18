@@ -110,6 +110,7 @@
         }
         .saldo {
             align-self: center;
+            padding-left: 15px;
         }
         .saldo .saldo-title {
             font-size: 12px;
