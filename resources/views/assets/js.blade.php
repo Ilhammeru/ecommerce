@@ -19,3 +19,5 @@
 <script src="{{ asset('assets/js/main.js') }}" defer></script>
 <!-- PWA app service registration and works js -->
 <script src="{{ asset('assets/js/pwa-services.js') }}"></script>
+
+<script src="{{ asset('plugins/font-awesome/js/all.min.js') }}"></script>

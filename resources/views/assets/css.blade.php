@@ -16,3 +16,10 @@
 
 <!-- manifest meta -->
 <link rel="manifest" href="{{ asset('_manifest.json') }}" />
+<link rel="stylesheet" href="{{ asset('plugins/font-awesome/all.min.css') }}">
+
+<style>
+    .text-white {
+        color: white !important;
+    }
+</style>

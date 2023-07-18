@@ -34,7 +34,7 @@
             left: 50%;
             top: -13%;
             transform: translateX(-50%);
-            width: 90%;
+            width: 95%;
             height: 50px;
             background-color: #B2B2B2;
             z-index: 80;
@@ -133,7 +133,9 @@
             height: 35px;
             border-radius: 6px;
             background-color: lightgrey;
-            margin-bottom: 6px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
         .top-up .top-up-text {
             font-size: 10px;
@@ -173,6 +175,11 @@
         }
         .herosale {
             margin-bottom: 10px;
+        }
+        .floating-action-wrapper {
+            display: flex;
+            align-items: center;
+            gap: 15px;
         }
     </style>
 @endpush
@@ -278,28 +285,27 @@
 <div class="product_section">
     <!-- Floating bar -->
     <div class="floating-bar">
-        <div class="qris-section">
-            <p class="qris-text m-0">Scan QRIS</p>
-            <div class="box-qris"></div>
-        </div>
-
         <!-- Saldo -->
         <div class="saldo">
             <p class="m-0 saldo-title">Saldo</p>
             <p class="m-0 saldo-amount">Rp. 1.500.000</p>
         </div> <!-- End Saldo -->
 
-        <!-- topup -->
-        <div class="top-up">
-            <div class="top-up-box"></div>
-            <p class="m-0 top-up-text">Top Up</p>
-        </div> <!-- End Top up -->
+        <div class="floating-action-wrapper">
+            <!-- topup -->
+            <div class="top-up">
+                <div class="top-up-box">
+                    <i class="fa fa-plus text-white"></i>
+                </div>
+            </div> <!-- End Top up -->
 
-        <!-- topup -->
-        <div class="top-up">
-            <div class="top-up-box"></div>
-            <p class="m-0 top-up-text">Scan</p>
-        </div> <!-- End Top up -->
+            <!-- topup -->
+            <div class="top-up">
+                <div class="top-up-box">
+                    <i class="fa fa-arrow-right text-white"></i>
+                </div>
+            </div> <!-- End Top up -->
+        </div>
     </div> <!-- End Floating bar -->
 
     <div class="product-wrapper pt-3">
