@@ -64,8 +64,7 @@
             display: flex;
             align-items: center;
             flex-flow: column nowrap;
-            min-width: 60px;
-            max-width: 65px;
+            width: 63px;
             height: 100px;
             border-radius: 8px;
             -webkit-tap-highlight-color: transparent;
@@ -261,9 +260,9 @@
 <div class="glide heropeek">
     <div class="glide__track" data-glide-el="track">
       <ul class="glide__slides">
-        <div class="glide__slide" style="background: lightgray; width: 100%; height: 150px;"></div>
-        <div class="glide__slide" style="background: darkgray; width: 100%; height: 150px;"></div>
-        <div class="glide__slide" style="background: aqua; width: 100%; height: 150px;"></div>
+        <div class="glide__slide" style="background: lightgray; width: 100%; height: 170px;"></div>
+        <div class="glide__slide" style="background: darkgray; width: 100%; height: 170px;"></div>
+        <div class="glide__slide" style="background: aqua; width: 100%; height: 170px;"></div>
       </ul>
     </div>
     <div class="glide">
